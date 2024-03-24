@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explorando el Universo: Galaxias</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+/* Reset de estilos para asegurar la consistencia entre navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos globales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #111;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 20px;
+}
+
+.gallery img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos específicos para las imágenes de galaxias */
+.galaxy-images {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.galaxy-images img {
+    width: 30%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.3);
+}
+
+footer {
+    background-color: #111;
+    color: #aaa;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Estilos adicionales para mejorar la apariencia */
+a {
+    color: #fff;
+}
+
+a:hover {
+    color: #ccc;
+}
+.video-container {
+            position: relative;
+            width: 560px;
+            height: 315px;
+        }
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        .vr-overlay {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background-color: rgba(0, 0, 0, 0.7);
+            color: #fff;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Explorando el Universo: Galaxias</h1>
+        <nav>
+            <ul>
+                <li><a href="#informacion">Información General</a></li>
+                <li><a href="#tipos">Tipos de Galaxias</a></li>
+                <li><a href="#galeria">Galería de Imágenes</a></li>
+                <li><a href="#articulos">Artículos y Noticias</a></li>
+                <li><a href="#exploracion">Exploración Espacial</a></li>
+                <li><a href="#datos">Datos Interesantes</a></li>
+                <li><a href="#recursos">Recursos Educativos</a></li>
+                <li><a href="#eventos">Eventos Astronómicos</a></li>
+                <li><a href="#foro">Foro y Preguntas</a></li>
+                <li><a href="#enlaces">Enlaces de Interés</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="informacion">
+        <h2>Información General sobre Galaxias</h2>
+        <p>Las galaxias son vastas agrupaciones de estrellas, planetas, gas interestelar, materia oscura y otros elementos cósmicos. Son los componentes fundamentales del universo y sirven como sistemas en los cuales se forman, evolucionan y mueren las estrellas.</p>
+    </section>
+
+    <section id="tipos">
+        <h2>Tipos de Galaxias</h2>
+        <p>Existen varios tipos de galaxias, entre ellos:</p>
+        <ul>
+            <li>Espirales</li>
+            <li>Elípticas</li>
+            <li>Irregulares</li>
+        </ul>
+        <p>Cada tipo tiene características únicas en cuanto a su forma, tamaño y contenido.</p>
+        <div class="galaxy-images">
+            <img src="galaxia espiral.jpg" alt="Galaxia Espiral">
+            <img src="galaxia elipticas.jpg" alt="Galaxia Elíptica">
+            <img src="galaxia irregular.jpg" alt="Galaxia Irregular">
+        </div>
+    </section>
+
+    <section id="galeria">
+        <h2>Galería de Imágenes</h2>
+        <div class="gallery">
+            <img src="galaxia 1.avif" alt="Galaxia 1">
+            <img src="galaxia 2.webp" alt="Galaxia 2">
+            <img src="galaxia 3.jpg" alt="Galaxia 3">
+            <!-- Agrega más imágenes de galaxias impresionantes -->
+        </div>
+    </section>
+
+    <section id="articulos">
+        <h2>Artículos y Noticias</h2>
+        <p>Aquí encontrarás artículos y noticias sobre los últimos descubrimientos relacionados con las galaxias y la astronomía en general.</p>
+        <ul>
+            <li><a href="https://example.com/articulo1">Artículo 1: Descubren nueva galaxia cercana a la Vía Láctea</a></li>
+            <li><a href="https://example.com/articulo2">Artículo 2: Telescopio Hubble revela detalles inéditos de la Galaxia de Andrómeda</a></li>
+        </ul>
+    </section>
+
+    <section id="exploracion">
+        <h2>Exploración Espacial</h2>
+        <p>Descubre más sobre las misiones espaciales que han estudiado o explorado galaxias específicas, como el telescopio espacial Hubble o la sonda Voyager.</p>
+    </section>
+
+    <section id="datos">
+        <h2>Datos Interesantes</h2>
+        <p>- La Vía Láctea y Andrómeda chocarán: En unos 4 mil millones de años, nuestra galaxia, la Vía Láctea, chocará con nuestra vecina más cercana, la galaxia de Andrómeda. Este evento resultará en la formación de una nueva galaxia gigante elíptica.
+
+          - del Sombrero (M104): Esta galaxia espiral tiene un distintivo anillo de polvo que le da la apariencia de un sombrero de ala ancha. Es conocida por ser una de las galaxias más brillantes en luz visible.
+          
+          - Galaxia del Cigarro (M82): Esta galaxia irregular es conocida por su rápida formación estelar y su aspecto alargado que le ha valido el apodo de "Cigarro". También es una fuente importante de radiación infrarroja.
+          
+          - La galaxia más lejana conocida: GN-z11 es la galaxia más lejana que se ha observado hasta ahora, con una edad estimada de 13,4 mil millones de años luz.</p>
+    </section>
+
+    <section id="recursos">
+        <h2>Recursos Educativos</h2>
+        <p>Explora estos recursos educativos para aprender más sobre la naturaleza y la estructura de las galaxias:</p>
+        <ul>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/G0Rbjo7hGWM" frameborder="0" allowfullscreen></iframe>
+
+          <div class="video-container">
+          <iframe src="https://www.youtube.com/embed/3offgJ5kSM0" frameborder="0" allowfullscreen></iframe>
+          <div class="vr-overlay">VR y Simulación</div>
+
+        </ul>
+    </section>
+
+    <section id="eventos">
+        <h2>Eventos Astronómicos</h2>
+        <p>Consulta el calendario de eventos astronómicos relevantes que podrás observar desde la Tierra:</p>
+        <ul>
+            <li>Eclipse lunar - 15 de abril</li>
+            <li>Lluvia de meteoros Perseidas - 12 de agosto</li>
+            <li>Acercamiento del cometa Halley - 28 de octubre</li>
+        </ul>
+    </section>
+
+    <section id="foro">
+      <form action="procesar_publicacion.php" method="POST">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required><br>
+        <label for="mensaje">Mensaje:</label><br>
+        <textarea id="mensaje" name="mensaje" rows="4" cols="50" required></textarea><br>
+        <button type="submit">Publicar</button>
+    </form>
+</body>
+</html>
+
+    <section id="enlaces">
+        <h2>Enlaces de Interés</h2>
+        <p>Descubre más sobre el universo visitando estos sitios web, blogs y comunidades en línea relacionados con la astronomía y las galaxias:</p>
+        <ul>
+            <li><a href="https://astronomia.com">Astronomia.com</a></li>
+            <li><a href="https://space.com">Space.com</a></li>
+            <li><a href="https://nasa.gov">NASA</a></li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Explorando el Universo</p>
+   
+        <audio autoplay loop>
+          <source src="Musica espacial. Galaxias. Relaxing music. Musica relajante..mp3" type="audio/mpeg">
+          Tu navegador no soporta el elemento de audio.
+        </audio>
+        
+        
